@@ -1,0 +1,29 @@
+{
+  "name": "packed-pp_apache",
+  "version": "1.0.0",
+  "author": "PACKED vzw",
+  "summary": "Module to configure Apache.",
+  "license": "Apache 2.0",
+  "source": "https://github.com/PACKED-vzw/pp_apache",
+  "project_page": "https://github.com/PACKED-vzw/pp_apache",
+  "issues_url": "https://github.com/PACKED-vzw/pp_apache/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "14.04",
+        "16.04"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    },
+    {
+        "name": "puppetlabs-apache",
+        "version_range": ">= 1.10.0"
+    }
+  ]
+}
